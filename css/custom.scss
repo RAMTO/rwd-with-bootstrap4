@@ -1,0 +1,58 @@
+/*** Variables ***/
+// Colors
+$primary: #e01705;
+$secondary: #0a1f44;
+$light: #e9ecef;
+
+// Options
+$enable-responsive-font-sizes: true;
+
+// Body
+$body-color: #5a6881;
+
+// Typography
+$font-family-base: "Poppins";
+$headings-font-weight: 700;
+$headings-margin-bottom: 0;
+$paragraph-margin-bottom: 0;
+
+// Spacers
+$spacer:            1rem;
+
+$spacers: (
+  0: 0,
+  1: ($spacer * .125),  // 2px
+  2: ($spacer * .25),   // 4px
+  3: ($spacer * .5),    // 8px
+  4: $spacer,           // 16px
+  5: ($spacer * 1.5),   // 24px
+  6: ($spacer * 2),     // 32px
+  7: ($spacer * 2.5),   // 40px
+  8: ($spacer * 3),     // 48px
+  9: ($spacer * 3.5),   // 56px
+  10: ($spacer * 4),    // 64px
+);
+
+// Buttons
+$btn-padding-y: 14px;
+$btn-padding-x: 28px;
+$btn-border-radius: 50px;
+
+@import "bootstrap";
+
+// Custom UI elements
+.icon-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  border: 1px solid $primary;
+  background-color: white;
+
+  color: $primary;
+  font-size: 24px;
+}

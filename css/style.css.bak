@@ -1,0 +1,75 @@
+/* Variables */
+:root {
+  --bg-color: #5a6881;
+  --primary-color: #e01705;
+  --secondary-color: #0a1f44;
+}
+
+/* Resets and general styles */
+body {
+  color: var(--bg-color);
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Typography */
+.bg-light {
+  background-color: #e9ecef !important;
+}
+
+/* Typography */
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+/* UI elements */
+.btn {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  padding: 14px 48px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.icon-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  background-color: white;
+
+  color: var(--primary-color);
+  font-size: 24px;
+}
