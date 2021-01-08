@@ -12132,12 +12132,19 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   border: 1px solid #e01705;
   background-color: white;
   color: #e01705;
   font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .icon-feature {
+    width: 60px;
+    height: 60px;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
